@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Power of Prophecy — Prince Dipanagara and the end of an old order in Java, 1785-1855</title>
+  <meta name="description" content="The Power of Prophecy by Peter Carey. Online digital archive converted from the original KITLV edition, directly reading Markdown source files.">
+  <meta name="theme-color" content="#0f1115">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/book-data.js" defer></script>
+  <script src="assets/js/marked.min.js" defer></script>
+  <script src="assets/js/minisearch.min.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+  <script src="assets/js/search.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Top Navigation Header matching feureau.github.io -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="header-left">
+        <button class="mobile-toggle-btn" id="mobileToggleBtn" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+        <a class="brand" href="#home">
+          <span class="brand-mark" aria-hidden="true">P</span>
+          <span class="brand-name">The Power of Prophecy</span>
+        </a>
+        <span class="header-crumb" id="headerCrumb">Home</span>
+      </div>
+
+      <div class="header-actions">
+        <button class="search-trigger-btn" data-search-trigger aria-label="Search the book">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <span>Search book...</span>
+          <span class="search-shortcut-badge">Ctrl K</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Sidebar Backdrop Overlay -->
+  <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+  <!-- Search Modal Dialog -->
+  <div class="search-modal-backdrop" id="searchModalBackdrop" role="dialog" aria-modal="true" aria-label="Search Book">
+    <div class="search-modal">
+      <div class="search-header">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input class="search-input" id="searchInput" type="search" placeholder="Search chapters, people, places, events..." autocomplete="off" spellcheck="false">
+        <button class="search-close-btn" id="searchCloseBtn" aria-label="Close search">✕</button>
+      </div>
+
+      <div class="search-tabs">
+        <button class="search-tab is-active" data-category="all">All Content</button>
+        <button class="search-tab" data-category="chapter">Chapters (I–XII)</button>
+        <button class="search-tab" data-category="appendix">Appendices</button>
+        <button class="search-tab" data-category="reference">Glossary & Index</button>
+      </div>
+
+      <div class="search-results" id="searchResults">
+        <div class="search-empty-state">
+          Type keywords to search across all 1,000 pages of the book.
+          <br><span style="font-size:0.85rem; color: var(--text-muted); margin-top:0.4rem; display:inline-block;">
+            Live search reads directly from the .md files in sections/.
+          </span>
+        </div>
+      </div>
+
+      <div class="search-footer">
+        <div class="search-keys">
+          <span class="search-key-item"><kbd>↑</kbd> <kbd>↓</kbd> Navigate</span>
+          <span class="search-key-item"><kbd>↵</kbd> Select</span>
+          <span class="search-key-item"><kbd>Esc</kbd> Close</span>
+        </div>
+        <div>Live client-side search</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Three-Column Layout Container -->
+  <div class="book-container">
+    <!-- Left Global Book Navigation Sidebar -->
+    <aside class="book-sidebar" id="bookSidebar" aria-label="Book Navigation"></aside>
+
+    <!-- Center Prose Reader -->
+    <main class="book-main" id="main" tabindex="-1">
+      <div id="mainContent"></div>
+    </main>
+
+    <!-- Right In-Page TOC Sidebar -->
+    <aside class="toc-sidebar" id="tocSidebar" aria-label="Table of Contents"></aside>
+  </div>
+</body>
+</html>
