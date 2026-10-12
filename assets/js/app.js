@@ -243,11 +243,11 @@
     let html = `
       <div class="wrap">
         <section class="portal-hero">
-          <div class="portal-eyebrow">Digital Edition &bull; KITLV Press</div>
+          <div class="portal-eyebrow">Digital Edition</div>
           <h1 class="portal-title">The Power of Prophecy</h1>
           <div class="portal-author">Prince Dipanagara and the end of an old order in Java, 1785–1855</div>
           <p class="portal-desc">
-            By <strong>Peter Carey</strong>. Complete academic edition converted from the original print volume into a modern, searchable digital archive. Covering the origins, course, and aftermath of the Java War (1825–1830).
+            By <strong>Peter Carey</strong>. <br>Complete academic edition converted from the original print volume into a modern, searchable digital archive. Covering the origins, course, and aftermath of the Java War (1825–1830). Posted by permission from the Author.
           </p>
           <div class="portal-actions">
             <a class="btn btn-primary" href="#/chapter-01">Start Chapter I</a>
