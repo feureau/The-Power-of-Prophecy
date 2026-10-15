@@ -45,9 +45,10 @@ This archive contains the complete text of *The Power of Prophecy*, converted fr
 | 36 | Glossary of Javanese Words | pp. 869–874 | [36_Glossary_of_Javanese_Words.md](sections/36_Glossary_of_Javanese_Words.md) |
 | 37 | Bibliography | pp. 875–902 | [37_Bibliography.md](sections/37_Bibliography.md) |
 | 38 | Index | pp. 903–1000 | [38_Index.md](sections/38_Index.md) |
+| 39 | Expanded Keyword Index | Expanded | [39_Expanded_Keyword_Index.md](sections/39_Expanded_Keyword_Index.md) |
 
 ## Conversion Details
 - **Total Pages Converted:** 1,000 / 1,000 (100% coverage)
-- **Total Sections:** 38 individual Markdown files
+- **Total Sections:** 39 individual Markdown files
 - **Formatting:** Clean Markdown headings (`#`, `##`, `###`), soft hyphens joined, running page headers/footers removed, prose lines seamlessly joined across page boundaries without broken sentences, standard Markdown footnote references in body text (`[^N]`) linked to footnote definitions (`[^N]:`) at section ends under `## Notes`, and structured lists for Abbreviations, Glossary, Bibliography, and Index.
 - **Illustrations & Maps:** All 83 Plates, 8 Maps, and Figures from the original volume are embedded inline as high-resolution web-compatible images (`assets/img/`) with their full scholarly captions, archival citations, and seamless panoramic composites for two-page spreads.

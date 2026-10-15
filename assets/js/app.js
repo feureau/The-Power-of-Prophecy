@@ -48,7 +48,8 @@
 
     { id: "glossary", file: "36_Glossary_of_Javanese_Words.md", title: "Glossary of Javanese Words", badge: "Gloss", group: "Reference", pages: "pp. 869–874", category: "reference" },
     { id: "bibliography", file: "37_Bibliography.md", title: "Bibliography", badge: "Bib", group: "Reference", pages: "pp. 875–902", category: "reference" },
-    { id: "index", file: "38_Index.md", title: "Index of Names and Subjects", badge: "Index", group: "Reference", pages: "pp. 903–1000", category: "reference" }
+    { id: "index", file: "38_Index.md", title: "Index of Names and Subjects", badge: "Index", group: "Reference", pages: "pp. 903–1000", category: "reference" },
+    { id: "expanded-index", file: "39_Expanded_Keyword_Index.md", title: "Expanded Keyword Index", badge: "Ext Index", group: "Reference", pages: "Expanded", category: "expanded-index" }
   ];
 
   window.__BOOK_SECTIONS__ = SECTIONS;
@@ -240,7 +241,7 @@
 
     const chapters = SECTIONS.filter(s => s.category === "chapter");
     const appendices = SECTIONS.filter(s => s.category === "appendix");
-    const references = SECTIONS.filter(s => s.category === "reference");
+    const references = SECTIONS.filter(s => s.category === "reference" || s.category === "expanded-index");
 
     let html = `
       <div class="wrap">
