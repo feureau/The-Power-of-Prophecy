@@ -255,6 +255,7 @@
           <div class="portal-actions">
             <a class="btn btn-primary" href="#/chapter-01">Start Chapter I</a>
             <a class="btn btn-secondary" href="#/02-contents">Table of Contents</a>
+            <a class="btn btn-secondary" href="#/expanded-index">Expanded Keyword Index</a>
             <button class="btn btn-secondary" data-search-trigger>Search Book (Ctrl K)</button>
           </div>
         </section>
