@@ -174,11 +174,13 @@
     if (!tocSidebar) return;
 
     if (!headings || headings.length === 0) {
-      tocSidebar.style.display = "none";
+      tocSidebar.classList.remove("is-visible");
       return;
     }
 
-    tocSidebar.style.display = "block";
+    tocSidebar.classList.add("is-visible");
+
+    tocSidebar.classList.remove("is-visible");
     let html = `<div class="toc-title">On this page</div><ul class="toc-list">`;
     headings.forEach(h => {
       html += `<li><a class="toc-link" href="#/${activeSecId}#${h.id}">${h.title}</a></li>`;
@@ -230,7 +232,7 @@
     currentActiveSecId = null;
     const main = document.getElementById("mainContent");
     const tocSidebar = document.getElementById("tocSidebar");
-    if (tocSidebar) tocSidebar.style.display = "none";
+    if (tocSidebar) tocSidebar.classList.remove("is-visible");
 
     renderSidebar(null);
     document.getElementById("headerCrumb").textContent = "Home";

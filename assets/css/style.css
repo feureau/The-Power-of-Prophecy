@@ -630,7 +630,7 @@ tr:nth-child(even) td {
 }
 
 @media (min-width: 78rem) {
-  .toc-sidebar {
+  .toc-sidebar.is-visible {
     display: block;
   }
 }
